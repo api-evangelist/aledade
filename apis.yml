@@ -1,8 +1,13 @@
 aid: aledade
 name: Aledade
-description: 'Aledade is a company surfaced as a portfolio company of gv, ivp, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Aledade is a physician-led public benefit corporation and national leader
+  in value-based care, partnering with independent primary care practices, community
+  health centers, and health systems. It pairs data analytics, guided clinical workflows,
+  integrated care solutions, and payer contracts to help primary care organizations
+  succeed in accountable care organizations (ACOs) and value-based payment models,
+  improving patient outcomes while supporting the business sustainability of independent
+  practices. Added to the API Evangelist network as a portfolio company of gv, ivp,
+  and lightspeed-venture-partners.'
 url: https://raw.githubusercontent.com/api-evangelist/aledade/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +17,30 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://aledade.com/hubfs/Aledade%20Icon_Blue.png
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Value-Based Care
+- Primary Care
+- Accountable Care
+- Population Health
+- Health Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://aledade.com
+- type: Blog
+  url: https://aledade.com/newsroom
+- type: Support
+  url: https://www.aledade.com/contact
+- type: PrivacyPolicy
+  url: https://aledade.com/privacy-policy
+- type: TermsOfService
+  url: https://aledade.com/terms-of-use
+- type: TrustCenter
+  url: security/aledade-trust-center.yml
+- type: Compliance
+  url: https://trust.aledade.com/
+- type: DomainSecurity
+  url: security/aledade-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,14 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trust.aledade.com/
+url: https://trust.aledade.com/
+certifications:
+- HIPAA
+- NIST
+evidence:
+- source: https://trust.aledade.com/
+  keywords:
+  - hipaa
+  - nist
+  - trust center
